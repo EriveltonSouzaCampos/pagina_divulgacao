@@ -1,0 +1,37 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --font_white_500: #d8d8d8;
+    --font_white_700: #bdbdbd;
+
+}
+.conter_header{
+    background-color: #030303;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.1rem 0;
+}
+.custom-logo{
+    width: 15vw;
+    height: 10vh;
+}
+.header_links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.header_links > a{
+    font-style: none;
+    color: var(--font_white_700);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header_links > a:hover{
+    color: var(--white);
+    font-size: 1.51rem;
+}
