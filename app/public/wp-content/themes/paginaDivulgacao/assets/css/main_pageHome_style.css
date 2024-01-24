@@ -6,6 +6,7 @@
 
 }
 .about_client_body{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,9 +15,9 @@
     background-size: cover;
     background-position-x: right;
     background-position-y: center;
-    padding: 16rem 0;
+    padding: 21rem 0;
     box-sizing: border-box;
-    position: absolute;
+
 }
 .about_client_body > h1{
     font-size: 4rem;
