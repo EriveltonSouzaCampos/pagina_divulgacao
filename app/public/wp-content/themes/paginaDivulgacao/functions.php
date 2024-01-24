@@ -9,4 +9,10 @@ define('INCLUDES_DIR', ROOT_DIR . '/includes');
 //Includes
 include_once(INCLUDES_DIR . '/enqueue.php');
 
+//Ganchos
+add_action('wp_enqueue_scripts', 'enqueue');
+
+//theme
+add_theme_support( 'custom-logo' );
+
 ?>
