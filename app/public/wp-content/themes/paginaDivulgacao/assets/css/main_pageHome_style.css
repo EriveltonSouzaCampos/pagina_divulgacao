@@ -1,0 +1,48 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --font_white_500: #d8d8d8;
+    --font_white_700: #bdbdbd;
+
+}
+.about_client_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/fundo_feste_filtro_dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+    padding: 16rem 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+.about_client_body > h1{
+    font-size: 4rem;
+    color: var(--white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 4rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 24px rgb(0, 0, 0);
+    z-index: 1;
+}
+.about_client_body > p{
+    font-size: 1.125rem;
+    color: var(--white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    text-shadow: 5px 5px 24px rgb(0, 0, 0);
+    z-index: 1;
+}
+.filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    
+}
