@@ -14,10 +14,12 @@
     <header>
         <div class="conter_header">
             <div class="header">
-                <img src="" alt="Logo da empresa divulgada">
-                <a href="">About us</a>
-                <a href="">About Event</a>
-                <a href="">Contact Us</a>
+                <span><?php the_custom_logo()?></span>
+                <div class="header_links">
+                    <a href="">About us</a>
+                    <a href="">About Event</a>
+                    <a href="">Contact Us</a>
+                </div>
             </div>
         </div>
     </header>
