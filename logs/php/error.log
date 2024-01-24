@@ -1,0 +1,362 @@
+[23-Jan-2024 22:10:35 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includesequeue): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[23-Jan-2024 22:10:35 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includesequeue' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[23-Jan-2024 22:12:36 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[23-Jan-2024 22:12:36 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[23-Jan-2024 22:14:37 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[23-Jan-2024 22:14:37 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:09:58 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:09:58 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:09:59 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:09:59 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:05 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:05 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:10:05 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:05 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:07 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:07 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:28 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:28 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:10:28 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:28 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:29 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:29 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:10:30 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:10:30 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:40 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:40 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:11:40 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:40 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:56 UTC] PHP Warning:  include_once(C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php): Failed to open stream: No such file or directory in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:11:56 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public/wp-content/themes/paginaDivulgacao/includes/equeue.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\functions.php on line 10
+[24-Jan-2024 01:13:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:13:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:21
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 21
+[24-Jan-2024 01:14:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:18
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 18
+[24-Jan-2024 01:14:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:18
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 18
+[24-Jan-2024 01:14:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:18
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 18
+[24-Jan-2024 01:14:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:18
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 18
+[24-Jan-2024 01:14:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:18
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 18
+[24-Jan-2024 01:14:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:15:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:16:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:16:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:16:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:17:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:17:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Jan-2024 01:17:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:21:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Jan-2024 01:21:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 01:22:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IMAGE_DIR" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php:19
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#7 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php on line 19
+[24-Jan-2024 03:59:28 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 4
+[24-Jan-2024 03:59:28 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 4
+[24-Jan-2024 03:59:50 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 5
+[24-Jan-2024 03:59:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[24-Jan-2024 03:59:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[24-Jan-2024 04:27:28 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 04:27:28 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 04:27:55 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 04:27:55 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 04:28:04 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 04:52:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_expandjr_styles" not found or invalid function name in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#7 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\header.php(11): wp_head()
+#8 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(790): require_once('C:\\Users\\Pichau...')
+#9 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Pichau...', true, Array)
+#10 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\page-home.php(4): get_header()
+#12 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Pichau...')
+#13 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pichau...')
+#14 C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\index.php(17): require('C:\\Users\\Pichau...')
+#15 {main}
+  thrown in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-hook.php on line 324
+[24-Jan-2024 05:15:52 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 05:15:52 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
+[24-Jan-2024 05:20:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Jan-2024 05:21:12 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
