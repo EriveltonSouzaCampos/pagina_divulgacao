@@ -360,3 +360,6 @@ Stack trace:
 [24-Jan-2024 05:15:52 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 10
 [24-Jan-2024 05:20:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [24-Jan-2024 05:21:12 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Jan-2024 05:46:28 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 13
+[24-Jan-2024 05:46:28 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Pichau\Local Sites\ghpaginadivulgacao\app\public\wp-content\themes\paginaDivulgacao\includes\enqueue.php on line 13
+[24-Jan-2024 21:45:24 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}

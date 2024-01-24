@@ -1,0 +1,1 @@
+2024/01/24 03:31:34 [error] 7644#17588: *2842 connect() failed (10061: FormatMessage() error:(15100)) while connecting to upstream, client: ::1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:10008", host: "localhost:10010", referrer: "http://localhost:10010/"
