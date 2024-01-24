@@ -7,6 +7,6 @@ define('SCRIPTS_DIR', get_template_directory_uri() . '/assets/js');
 define('INCLUDES_DIR', ROOT_DIR . '/includes');
 
 //Includes
-include_once(INCLUDES_DIR . '/equeue.php')
+include_once(INCLUDES_DIR . '/enqueue.php');
 
 ?>
