@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Auto Reload\n"
+"POT-Creation-Date: 2023-11-02 21:29+0100\n"
+"PO-Revision-Date: 2023-11-02 21:31+0100\n"
+"Last-Translator: Ivijan-Stefan Stipić <infinitumform@gmail.com>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: easy-auto-reload.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: easy-auto-reload.php:136
+msgid "Auto-Refresh Settings"
+msgstr "Postavke automatskog osvježavanja"
+
+#: easy-auto-reload.php:143
+msgid "Auto-Refresh Timeout"
+msgstr "Istek automatskog osvježavanja"
+
+#: easy-auto-reload.php:151
+msgid "Browser Cache"
+msgstr "Predmemorija preglednika"
+
+#: easy-auto-reload.php:159
+msgid "WP Admin"
+msgstr ""
+
+#: easy-auto-reload.php:168
+msgid "Lifespan of nonces"
+msgstr "Vrijeme isteka za \"nonces\""
+
+#: easy-auto-reload.php:182 easy-auto-reload.php:183 easy-auto-reload.php:228
+msgid "Auto-Refresh"
+msgstr "Automatsko osvježavanje"
+
+#: easy-auto-reload.php:245
+msgid ""
+"Automatically reloads web pages after any number of minutes if the user or "
+"visitor is not active on the site."
+msgstr ""
+"Automatski ponovno učitavanje web stranica nakon bilo kojeg broja minuta ako "
+"korisnik ili posjetitelj nije aktivan na stranici."
+
+#: easy-auto-reload.php:255
+msgid "Enter the number in minutes."
+msgstr "Unesite broj u minutama."
+
+#: easy-auto-reload.php:266
+msgid "WARNING: Do not change if you are not sure what it is for."
+msgstr "UPOZORENJE: Ne mijenjajte ako niste sigurni čemu služi."
+
+#: easy-auto-reload.php:267
+msgid ""
+"This field is used to define the lifespan of nonces in seconds. By default, "
+"nonces have a lifespan of 86,400 seconds, which is equivalent to one day. "
+"It's important to exercise caution when considering any extensions to this "
+"value, as longer lifespans may introduce security risks by extending the "
+"window of opportunity for potential attacks. Please ensure you carefully "
+"assess your security requirements before making changes to this setting."
+msgstr ""
+"Ovo polje koristi se za definiranje vremenskog trajanja nonceova u "
+"sekundama. Prema zadanim postavkama, nonceovi imaju vremensko trajanje od "
+"86.400 sekundi, što je ekvivalentno jednom danu. Važno je voditi računa "
+"prilikom razmatranja bilo kakvih produljenja ove vrijednosti, jer dulje "
+"trajanje može uvesti sigurnosne rizike proširivanjem prozora prilike za "
+"potencijalne napade. Molimo vas da pažljivo procijenite svoje sigurnosne "
+"zahtjeve prije nego napravite promjene u ovim postavkama."
+
+#: easy-auto-reload.php:278
+msgid "Clear the browser cache during refresh."
+msgstr "Izbrišite predmemoriju preglednika tijekom osvježavanja."
+
+#: easy-auto-reload.php:289
+msgid "Enable autoefresh inside WP Admin."
+msgstr "Omogućite automatsko osvježavanje unutar WP Admin."
+
+#: easy-auto-reload.php:299
+#, php-format
+msgid ""
+"Auto-reload WordPress pages after %d minutes if there is no site activity."
+msgstr ""
+"Automatski ponovno učitajte WordPress stranice nakon %d minuta ako nema "
+"aktivnosti na web-lokaciji."
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Auto Reload"
+msgstr "Jednostavno automatsko ponovno učitavanje"
+
+#. Plugin URI of the plugin/theme
+msgid "https://infinitumform.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Auto refresh WordPress pages if there is no site activity after after any "
+"number of minutes."
+msgstr ""
+"Automatski osvježite WordPress stranice ako nema aktivnosti na web-lokaciji "
+"nakon bilo kojeg broja minuta."
+
+#. Author of the plugin/theme
+msgid "Ivijan-Stefan Stipic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/ivijanstefanstipic/"
+msgstr ""
