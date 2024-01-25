@@ -57,14 +57,13 @@
     height: 8px;
 }
 .about_the_event_body{
-    background: rgb(22,37,110);
-    background: radial-gradient(circle, rgba(22,37,110,1) 6%, rgba(18,31,94,1) 19%, rgba(18,31,93,1) 33%, rgba(18,31,93,1) 44%, rgba(16,28,87,1) 51%, rgba(12,22,72,1) 62%, rgba(11,20,66,1) 69%, rgba(9,17,59,1) 74%, rgba(7,14,50,1) 80%, rgba(6,13,46,0.9822303921568627) 87%, rgba(5,10,36,1) 92%, rgba(3,7,23,1) 94%, rgba(0,0,0,0.9822303921568627) 100%);
+    background-color: #000000ee;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 5vw;
+    padding: 7vw 0;
     gap: 2rem;
     color: var(--font_white_700);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
