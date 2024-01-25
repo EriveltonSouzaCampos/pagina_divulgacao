@@ -68,25 +68,25 @@
     color: var(--font_white_700);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.about_the_event_body > h1{
+.about_the_company_body > h1{
     font-size: 4rem;
 }
-.textof_event{
+.textof_company{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.textof_event > p{
+.textof_company > p{
     width: 70%;
     font-size: 1.5rem;
     text-align: justify;
 }
-.about_the_event_body > a{
+.about_the_company_body > a{
     text-decoration: none;
     font-size: 1.3rem;
     color: var(--font_white_700);
 }
-.about_the_event_body > a:hover{
+.about_the_company_body > a:hover{
     color: var(--font_white_500);
     font-size: 1.31;
 }
