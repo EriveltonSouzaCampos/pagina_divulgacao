@@ -54,7 +54,7 @@
     background: rgb(12,22,72);
     background: linear-gradient(29deg, rgba(12,22,72,1) 22%, rgba(11,20,66,1) 46%, rgba(10,19,63,1) 57%, rgba(9,17,59,1) 66%, rgba(7,14,50,1) 75%, rgba(6,13,46,0.9822303921568627) 85%, rgba(5,10,36,1) 91%, rgba(3,7,23,1) 94%, rgba(0,0,0,0.9822303921568627) 100%);
     width: 100%;
-    height: 8px;
+    height: 3.5px;
 }
 .about_the_company_body{
     background-color: #000000ee;
@@ -89,4 +89,40 @@
 .about_the_company_body > a:hover{
     color: var(--font_white_500);
     font-size: 1.31;
+}
+
+
+.about_event_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about_event_cont > h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.event{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+}
+.event > p{
+    width: 80vw;
+    font-size: 1.3rem;
+    color: var(--black);
+    font-weight: 700;
+    text-align: justify;
+}
+.images_event{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.images_event > img{
+    width: 40%;
+    height: 60%;
+    box-shadow: 50px 50px 64px rgba(0, 0, 0, 0.699);
 }
