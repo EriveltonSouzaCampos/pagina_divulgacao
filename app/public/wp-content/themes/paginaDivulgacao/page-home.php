@@ -20,9 +20,28 @@
             <a href="">More about</a>
         </div>
         <div class="linear_blue"></div>
-        <div class="about_event">
-
+        <div class="about_event_cont">
+            <h1>Name of event</h1>
+            <div class="event">
+                <div class="images_event">
+                    <?php
+                        /*Pegando as fotos do ACF pelo get_field*/
+                        $pictures = acf_get_fields("group_65d4e56dee608"); //Pego um objeto que contem todo o field
+                        foreach($pictures as $field){
+                            $image = get_field($field['name']); //Pego cada imagem pelo nome do campo
+                            $size = 'full';
+                            if( $image ) {
+                                echo wp_get_attachment_image( $image, $size );
+                            }
+                        }
+                    ?>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus doloremque aliquam unde commodi ipsum sequi itaque suscipit aperiam harum corrupti officia laboriosam hic distinctio quod, aspernatur quae perspiciatis! Laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat sapiente similique minima sequi voluptatum commodi praesentium, unde, quidem nisi ullam! Ducimus consequatur eum sit blanditiis fuga numquam, quae quod. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maxime reiciendis fugiat minima nobis? Non reprehenderit sequi adipisci molestiae id. Odit ratione hic saepe, nulla aliquam unde exercitationem itaque sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nostrum eius fugiat consectetur repellat repudiandae dolore fuga doloribus tempora? Sint aspernatur delectus cupiditate possimus earum esse odit. Libero, tenetur provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ut fuga id, excepturi suscipit quam deleniti, enim, repellat quo odit sequi voluptate? Quae quidem id reprehenderit debitis magnam necessitatibus dolores!
+                </p>
+            </div>
         </div>
+        <div class="linear_blue"></div>
    </div>
 </main>
 
