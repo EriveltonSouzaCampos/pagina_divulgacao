@@ -30,83 +30,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div class="ai1wm-reset-container">
 	<div class="ai1wm-reset-content">
-		<aside>
-			<nav>
-				<a href="#" class="active" data-tab="plugins">
-					<i class="ai1wm-icon-power-cord"></i>
-					<?php _e( 'Reset Plugins', AI1WM_PLUGIN_NAME ); ?>
-				</a>
-				<a href="#" data-tab="themes">
-					<i class="ai1wm-icon-stack"></i>
-					<?php _e( 'Reset Themes', AI1WM_PLUGIN_NAME ); ?>
-				</a>
-				<a href="#" data-tab="media-files">
-					<i class="ai1wm-icon-image"></i>
-					<?php _e( 'Reset Media Files', AI1WM_PLUGIN_NAME ); ?>
-				</a>
-				<a href="#" data-tab="reset-all">
-					<i class="ai1wm-icon-arrow-down"></i>
-					<?php _e( 'Reset All', AI1WM_PLUGIN_NAME ); ?>
-				</a>
-			</nav>
-		</aside>
-		<section>
-			<article>
-				<a href="#" class="active" data-tab="plugins">
-					<i class="ai1wm-icon-power-cord"></i>
-					<?php _e( 'Reset Plugins', AI1WM_PLUGIN_NAME ); ?>
-					<span></span>
-				</a>
-				<div class="active" data-tab="plugins">
-					<h2>
-						<?php _e( 'Reset Plugins', AI1WM_PLUGIN_NAME ); ?> <a href="https://servmask.com/products/unlimited-extension?utm_campaign=reset&utm_source=wordpress&utm_medium=textlink" target="_blank"><?php _e( 'Enable this feature', AI1WM_PLUGIN_NAME ); ?></a>
-					</h2>
-					<img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/plugins.png?v=<?php echo AI1WM_VERSION; ?>" />
-					<p><?php _e( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', AI1WM_PLUGIN_NAME ); ?></p>
-				</div>
-			</article>
-			<article>
-				<a href="#" data-tab="themes">
-					<i class="ai1wm-icon-stack"></i>
-					<?php _e( 'Reset Themes', AI1WM_PLUGIN_NAME ); ?>
-					<span></span>
-				</a>
-				<div data-tab="themes">
-					<h2>
-						<?php _e( 'Reset Themes', AI1WM_PLUGIN_NAME ); ?> <a href="https://servmask.com/products/unlimited-extension?utm_campaign=reset&utm_source=wordpress&utm_medium=textlink" target="_blank"><?php _e( 'Enable this feature', AI1WM_PLUGIN_NAME ); ?></a>
-					</h2>
-					<img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/themes.png?v=<?php echo AI1WM_VERSION; ?>" />
-					<p><?php _e( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', AI1WM_PLUGIN_NAME ); ?></p>
-				</div>
-			</article>
-			<article>
-				<a href="#" data-tab="media-files">
-					<i class="ai1wm-icon-image"></i>
-					<?php _e( 'Reset Media Files', AI1WM_PLUGIN_NAME ); ?>
-					<span></span>
-				</a>
-				<div data-tab="media-files">
-					<h2>
-						<?php _e( 'Reset Media Files', AI1WM_PLUGIN_NAME ); ?> <a href="https://servmask.com/products/unlimited-extension?utm_campaign=reset&utm_source=wordpress&utm_medium=textlink" target="_blank"><?php _e( 'Enable this feature', AI1WM_PLUGIN_NAME ); ?></a>
-					</h2>
-					<img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/media-files.png?v=<?php echo AI1WM_VERSION; ?>" />
-					<p><?php _e( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', AI1WM_PLUGIN_NAME ); ?></p>
-				</div>
-			</article>
-			<article>
-				<a href="#" data-tab="reset-all">
-					<i class="ai1wm-icon-arrow-down"></i>
-					<?php _e( 'Reset All', AI1WM_PLUGIN_NAME ); ?>
-					<span></span>
-				</a>
-				<div data-tab="reset-all">
-					<h2>
-						<?php _e( 'Reset All', AI1WM_PLUGIN_NAME ); ?> <a href="https://servmask.com/products/unlimited-extension?utm_campaign=reset&utm_source=wordpress&utm_medium=textlink" target="_blank"><?php _e( 'Enable this feature', AI1WM_PLUGIN_NAME ); ?></a>
-					</h2>
-					<img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/reset-all.png?v=<?php echo AI1WM_VERSION; ?>" />
-					<p><?php _e( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', AI1WM_PLUGIN_NAME ); ?></p>
-				</div>
-			</article>
-		</section>
+		<h1>
+			<img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/star.png?v=<?php echo AI1WM_VERSION; ?>" alt="<?php _e( 'Star', AI1WM_PLUGIN_NAME ); ?>" />
+			<?php _e( 'Experience Full Functionality with Premium!', AI1WM_PLUGIN_NAME ); ?>
+		</h1>
+		<p><?php _e( 'Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href="https://servmask.com/products/unlimited-extension" title="Upgrade to Premium" target="_blank">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support.', AI1WM_PLUGIN_NAME ); ?></p>
+
+		<a href="https://servmask.com/products/unlimited-extension" target="_blank" title="<?php _e( 'Upgrade to Premium ', AI1WM_PLUGIN_NAME ); ?>"><img src="<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/reset/screen.jpg?v=<?php echo AI1WM_VERSION; ?>" alt="<?php _e( 'Reset Hub Demo', AI1WM_PLUGIN_NAME ); ?>" /></a>
 	</div>
 </div>

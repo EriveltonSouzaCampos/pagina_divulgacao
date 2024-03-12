@@ -668,6 +668,15 @@ class Ai1wm_Main_Controller {
 		);
 
 		if ( ! defined( 'AI1WMVE_PATH' ) ) {
+			// Sub-level Reset
+			add_submenu_page(
+				'ai1wm_export',
+				__( 'Reset Hub', AI1WM_PLUGIN_NAME ),
+				__( 'Reset Hub', AI1WM_PLUGIN_NAME ) . Ai1wm_Template::get_content( 'main/premium-badge' ),
+				'export',
+				'ai1wm_reset',
+				'Ai1wm_Reset_Controller::index'
+			);
 			// Sub-level Schedules
 			add_submenu_page(
 				'ai1wm_export',

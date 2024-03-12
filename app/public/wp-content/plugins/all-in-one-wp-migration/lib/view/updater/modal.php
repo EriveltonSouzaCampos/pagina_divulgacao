@@ -53,5 +53,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 <span id="ai1wm-update-section-<?php echo esc_attr( $modal ); ?>">
 	<i class="ai1wm-icon-update"></i>
 	<?php _e( 'There is an update available. To update, you must enter your', AI1WM_PLUGIN_NAME ); ?>
-	<a href="#ai1wm-modal-dialog-<?php echo esc_attr( $modal ); ?>"><?php _e( 'Purchase ID', AI1WM_PLUGIN_NAME ); ?></a>.
+	<a class="ai1wm-modal-dialog-purchase-id" href="#ai1wm-modal-dialog-<?php echo esc_attr( $modal ); ?>"><?php _e( 'Purchase ID', AI1WM_PLUGIN_NAME ); ?></a>.
 </span>

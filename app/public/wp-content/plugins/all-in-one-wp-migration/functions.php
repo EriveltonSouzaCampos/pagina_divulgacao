@@ -472,7 +472,9 @@ function ai1wm_archive_file( $blog_id = null ) {
 	$name = array();
 
 	// Add domain
-	if ( ( $domain = explode( '.', parse_url( get_site_url( $blog_id ), PHP_URL_HOST ) ) ) ) {
+	if ( defined( 'AI1WM_KEEP_DOMAIN_NAME' ) ) {
+		$name[] = parse_url( get_site_url( $blog_id ), PHP_URL_HOST );
+	} elseif ( ( $domain = explode( '.', parse_url( get_site_url( $blog_id ), PHP_URL_HOST ) ) ) ) {
 		foreach ( $domain as $subdomain ) {
 			if ( ( $subdomain = strtolower( $subdomain ) ) ) {
 				$name[] = $subdomain;
@@ -511,7 +513,9 @@ function ai1wm_archive_folder( $blog_id = null ) {
 	$name = array();
 
 	// Add domain
-	if ( ( $domain = explode( '.', parse_url( get_site_url( $blog_id ), PHP_URL_HOST ) ) ) ) {
+	if ( defined( 'AI1WM_KEEP_DOMAIN_NAME' ) ) {
+		$name[] = parse_url( get_site_url( $blog_id ), PHP_URL_HOST );
+	} elseif ( ( $domain = explode( '.', parse_url( get_site_url( $blog_id ), PHP_URL_HOST ) ) ) ) {
 		foreach ( $domain as $subdomain ) {
 			if ( ( $subdomain = strtolower( $subdomain ) ) ) {
 				$name[] = $subdomain;
@@ -887,6 +891,7 @@ function ai1wm_content_filters( $filters = array() ) {
 			AI1WM_PACKAGE_NAME,
 			AI1WM_MULTISITE_NAME,
 			AI1WM_DATABASE_NAME,
+			AI1WM_W3TC_CONFIG_FILE,
 		)
 	);
 }

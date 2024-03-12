@@ -4,7 +4,7 @@ Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, wordp
 Requires at least: 3.3
 Tested up to: 6.5
 Requires PHP: 5.3
-Stable tag: 7.80
+Stable tag: 7.81
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -87,6 +87,16 @@ All-in-One WP Migration is in full compliance with General Data Protection Regul
 See our [GDPR Compliant Privacy Policy here](https://www.iubenda.com/privacy-policy/946881).
 
 == Changelog ==
+= 7.81 =
+**Added**
+
+* Reset Hub Page: Introducing a new reset hub page, providing users with powerful reset tools for efficient site management. This feature allows for easier resets of WordPress environments, facilitating smoother development and testing workflows.
+
+**Improved**
+
+* Better W3TC Support
+* PHP Compatibility Checks: Display a warning notification, when you move/restore your site to a different PHP version.
+
 = 7.80 =
 **Added**
 
